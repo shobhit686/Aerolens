@@ -1,0 +1,232 @@
+{
+  "sentiment": {
+    "model": "Sentiment Classifier",
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "precision_weighted": 1.0,
+    "recall_macro": 1.0,
+    "recall_weighted": 1.0,
+    "f1_macro": 1.0,
+    "f1_weighted": 1.0,
+    "confusion_matrix": [
+      [
+        104,
+        0,
+        0
+      ],
+      [
+        0,
+        51,
+        0
+      ],
+      [
+        0,
+        0,
+        85
+      ]
+    ],
+    "labels": [
+      "Negative",
+      "Neutral",
+      "Positive"
+    ],
+    "classification_report": {
+      "Negative": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 104.0
+      },
+      "Neutral": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 51.0
+      },
+      "Positive": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 85.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 240.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 240.0
+      }
+    }
+  },
+  "category": {
+    "model": "Category Classifier",
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "precision_weighted": 1.0,
+    "recall_macro": 1.0,
+    "recall_weighted": 1.0,
+    "f1_macro": 1.0,
+    "f1_weighted": 1.0,
+    "confusion_matrix": [
+      [
+        32,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        33,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        32,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        38,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        27,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        33,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        29
+      ]
+    ],
+    "labels": [
+      "Baggage Handling",
+      "Check-in and Boarding",
+      "Customer Support",
+      "Fares and Additional Charges",
+      "Flight Delays and Cancellations",
+      "Onboard Experience",
+      "Refunds and Cancellations",
+      "Staff Behaviour"
+    ],
+    "classification_report": {
+      "Baggage Handling": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 32.0
+      },
+      "Check-in and Boarding": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 33.0
+      },
+      "Customer Support": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 16.0
+      },
+      "Fares and Additional Charges": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 32.0
+      },
+      "Flight Delays and Cancellations": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 38.0
+      },
+      "Onboard Experience": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 27.0
+      },
+      "Refunds and Cancellations": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 33.0
+      },
+      "Staff Behaviour": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 29.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 240.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 240.0
+      }
+    }
+  }
+}
